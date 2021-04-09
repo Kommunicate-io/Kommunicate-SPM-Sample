@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Kommmunicate
+import testSPM
 
 class ViewController: UIViewController {
 
