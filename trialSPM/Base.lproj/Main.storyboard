@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="home" id="BYZ-38-t0r" customClass="ViewController" customModule="trialSPM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="home" id="BYZ-38-t0r" customClass="ViewController" customModule="trialSPM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -53,7 +53,7 @@
         <!--LoginVC-->
         <scene sceneID="ATa-9i-ZyW">
             <objects>
-                <viewController id="PPz-8T-Bkl" customClass="LoginVC" customModule="trialSPM" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="PPz-8T-Bkl" customClass="LoginVC" customModule="trialSPM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EMA-UL-95X">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
