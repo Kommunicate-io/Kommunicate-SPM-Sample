@@ -8,17 +8,22 @@
 import UIKit
 import Kommunicate
 
-class LoginVC: UIViewController {
+class LoginVC: UIViewController, KMPreChatFormViewControllerDelegate {
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
-    
-    
     @IBOutlet weak var userName: UITextField!
     @IBOutlet weak var emailId: UITextField!
     @IBOutlet weak var password: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        //code for prechatVC
+//        let preChatVC = KMPreChatFormViewController(configuration: Kommunicate.defaultConfiguration)
+//        preChatVC.delegate = self // set the delegate to self to receive callbacks
+//        self.present(preChatVC, animated: false, completion: nil) // To present
     }
     
     @IBAction func loginTapped(_ sender: Any) {
@@ -90,5 +95,11 @@ class LoginVC: UIViewController {
         })
     }
     
+    func userSubmittedResponse(name: String, email: String, phoneNumber: String) {
+        //code
+    }
     
+    func closeButtonTapped() {
+        //code
+    }
 }
