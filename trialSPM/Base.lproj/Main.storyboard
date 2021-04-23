@@ -36,6 +36,9 @@
                                 <rect key="frame" x="81" y="236" width="158" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="logoutTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1c-ko-dIH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

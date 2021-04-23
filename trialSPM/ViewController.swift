@@ -23,9 +23,11 @@ class ViewController: UIViewController {
         Kommunicate.logoutUser { (result) in
             switch result {
             case .success(_):
+                self.activityIndicator.startAnimating()
                 print("Logout success")
                 self.dismiss(animated: true, completion: nil)
             case .failure( _):
+                self.activityIndicator.startAnimating()
                 print("Logout failure, now registering remote notifications(if not registered)")
                 if !UIApplication.shared.isRegisteredForRemoteNotifications {
                     UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]) { (granted, error) in
@@ -55,6 +57,8 @@ class ViewController: UIViewController {
             if error != nil {
                 self.activityIndicator.stopAnimating()
                 print("Error while launching")
+            } else {
+                self.activityIndicator.stopAnimating()
             }
         })
     }
