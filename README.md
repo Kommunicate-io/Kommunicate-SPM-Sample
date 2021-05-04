@@ -11,10 +11,10 @@ To get started with the Kommunicate iOS SDK, head over to the Kommunicate websit
 ## Installation
 Follow these steps to install and run the sample app:
 
-- In the terminal, run: git clone https://github.com/shilwantk/Kommunicate-SwiftPackage-Sample 
+- In the terminal, run: git clone https://github.com/Kommunicate-io/Kommunicate-SPM-Sample.git
 
-- cd to folder
+- cd to folder Kommunicate-SPM-Sample
 
-- Open the .xcodeproj file in Xcode
+- Open the Kommunicate-SPM-Sample.xcodeproj file in Xcode
 
 - Add your App ID in the AppDelegate file, and run the app.
