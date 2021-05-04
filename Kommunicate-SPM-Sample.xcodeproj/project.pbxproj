@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11D4ABC1261AD07E0059650E /* trialSPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trialSPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kommunicate-SPM-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D4ABC4261AD07E0059650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D4ABC6261AD07E0059650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11D4ABC8261AD07E0059650E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		11D4ABCD261AD0800059650E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11D4ABD0261AD0800059650E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11D4ABD2261AD0800059650E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11D4ABD7261AD0800059650E /* trialSPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trialSPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D4ABD7261AD0800059650E /* Kommunicate-SPM-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kommunicate-SPM-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D4ABDB261AD0800059650E /* trialSPMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trialSPMTests.swift; sourceTree = "<group>"; };
 		11D4ABDD261AD0800059650E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11D4ABE2261AD0800059650E /* trialSPMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trialSPMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D4ABE2261AD0800059650E /* Kommunicate-SPM-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kommunicate-SPM-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D4ABE6261AD0800059650E /* trialSPMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trialSPMUITests.swift; sourceTree = "<group>"; };
 		11D4ABE8261AD0800059650E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11D7703026245EA5006F4522 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		11D4ABB8261AD07E0059650E = {
 			isa = PBXGroup;
 			children = (
-				11D4ABC3261AD07E0059650E /* trialSPM */,
-				11D4ABDA261AD0800059650E /* trialSPMTests */,
-				11D4ABE5261AD0800059650E /* trialSPMUITests */,
+				11D4ABC3261AD07E0059650E /* Kommunicate-SPM-Sample */,
+				11D4ABDA261AD0800059650E /* Kommunicate-SPM-SampleTests */,
+				11D4ABE5261AD0800059650E /* Kommunicate-SPM-SampleUITests */,
 				11D4ABC2261AD07E0059650E /* Products */,
 				11D7701326244B70006F4522 /* Frameworks */,
 			);
@@ -98,14 +98,14 @@
 		11D4ABC2261AD07E0059650E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11D4ABC1261AD07E0059650E /* trialSPM.app */,
-				11D4ABD7261AD0800059650E /* trialSPMTests.xctest */,
-				11D4ABE2261AD0800059650E /* trialSPMUITests.xctest */,
+				11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */,
+				11D4ABD7261AD0800059650E /* Kommunicate-SPM-SampleTests.xctest */,
+				11D4ABE2261AD0800059650E /* Kommunicate-SPM-SampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		11D4ABC3261AD07E0059650E /* trialSPM */ = {
+		11D4ABC3261AD07E0059650E /* Kommunicate-SPM-Sample */ = {
 			isa = PBXGroup;
 			children = (
 				11D4ABC4261AD07E0059650E /* AppDelegate.swift */,
@@ -118,25 +118,25 @@
 				11D7703026245EA5006F4522 /* LoginVC.swift */,
 				11EE869E263C01A000A3E792 /* Localizable.strings */,
 			);
-			path = trialSPM;
+			path = "Kommunicate-SPM-Sample";
 			sourceTree = "<group>";
 		};
-		11D4ABDA261AD0800059650E /* trialSPMTests */ = {
+		11D4ABDA261AD0800059650E /* Kommunicate-SPM-SampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				11D4ABDB261AD0800059650E /* trialSPMTests.swift */,
 				11D4ABDD261AD0800059650E /* Info.plist */,
 			);
-			path = trialSPMTests;
+			path = "Kommunicate-SPM-SampleTests";
 			sourceTree = "<group>";
 		};
-		11D4ABE5261AD0800059650E /* trialSPMUITests */ = {
+		11D4ABE5261AD0800059650E /* Kommunicate-SPM-SampleUITests */ = {
 			isa = PBXGroup;
 			children = (
 				11D4ABE6261AD0800059650E /* trialSPMUITests.swift */,
 				11D4ABE8261AD0800059650E /* Info.plist */,
 			);
-			path = trialSPMUITests;
+			path = "Kommunicate-SPM-SampleUITests";
 			sourceTree = "<group>";
 		};
 		11D7701326244B70006F4522 /* Frameworks */ = {
@@ -149,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11D4ABC0261AD07E0059650E /* trialSPM */ = {
+		11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11D4ABEB261AD0800059650E /* Build configuration list for PBXNativeTarget "trialSPM" */;
+			buildConfigurationList = 11D4ABEB261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-Sample" */;
 			buildPhases = (
 				11D4ABBD261AD07E0059650E /* Sources */,
 				11D4ABBE261AD07E0059650E /* Frameworks */,
@@ -161,18 +161,18 @@
 			);
 			dependencies = (
 			);
-			name = trialSPM;
+			name = "Kommunicate-SPM-Sample";
 			packageProductDependencies = (
 				112CA167263194A3002BC63B /* Kommunicate */,
 				114E427A2632E872009DCB44 /* Kommunicate */,
 			);
 			productName = trialSPM;
-			productReference = 11D4ABC1261AD07E0059650E /* trialSPM.app */;
+			productReference = 11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		11D4ABD6261AD0800059650E /* trialSPMTests */ = {
+		11D4ABD6261AD0800059650E /* Kommunicate-SPM-SampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11D4ABEE261AD0800059650E /* Build configuration list for PBXNativeTarget "trialSPMTests" */;
+			buildConfigurationList = 11D4ABEE261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-SampleTests" */;
 			buildPhases = (
 				11D4ABD3261AD0800059650E /* Sources */,
 				11D4ABD4261AD0800059650E /* Frameworks */,
@@ -183,14 +183,14 @@
 			dependencies = (
 				11D4ABD9261AD0800059650E /* PBXTargetDependency */,
 			);
-			name = trialSPMTests;
+			name = "Kommunicate-SPM-SampleTests";
 			productName = trialSPMTests;
-			productReference = 11D4ABD7261AD0800059650E /* trialSPMTests.xctest */;
+			productReference = 11D4ABD7261AD0800059650E /* Kommunicate-SPM-SampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		11D4ABE1261AD0800059650E /* trialSPMUITests */ = {
+		11D4ABE1261AD0800059650E /* Kommunicate-SPM-SampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11D4ABF1261AD0800059650E /* Build configuration list for PBXNativeTarget "trialSPMUITests" */;
+			buildConfigurationList = 11D4ABF1261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-SampleUITests" */;
 			buildPhases = (
 				11D4ABDE261AD0800059650E /* Sources */,
 				11D4ABDF261AD0800059650E /* Frameworks */,
@@ -201,9 +201,9 @@
 			dependencies = (
 				11D4ABE4261AD0800059650E /* PBXTargetDependency */,
 			);
-			name = trialSPMUITests;
+			name = "Kommunicate-SPM-SampleUITests";
 			productName = trialSPMUITests;
-			productReference = 11D4ABE2261AD0800059650E /* trialSPMUITests.xctest */;
+			productReference = 11D4ABE2261AD0800059650E /* Kommunicate-SPM-SampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 11D4ABBC261AD07E0059650E /* Build configuration list for PBXProject "trialSPM" */;
+			buildConfigurationList = 11D4ABBC261AD07E0059650E /* Build configuration list for PBXProject "Kommunicate-SPM-Sample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,9 +244,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11D4ABC0261AD07E0059650E /* trialSPM */,
-				11D4ABD6261AD0800059650E /* trialSPMTests */,
-				11D4ABE1261AD0800059650E /* trialSPMUITests */,
+				11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */,
+				11D4ABD6261AD0800059650E /* Kommunicate-SPM-SampleTests */,
+				11D4ABE1261AD0800059650E /* Kommunicate-SPM-SampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		11D4ABD9261AD0800059650E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11D4ABC0261AD07E0059650E /* trialSPM */;
+			target = 11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */;
 			targetProxy = 11D4ABD8261AD0800059650E /* PBXContainerItemProxy */;
 		};
 		11D4ABE4261AD0800059650E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11D4ABC0261AD07E0059650E /* trialSPM */;
+			target = 11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */;
 			targetProxy = 11D4ABE3261AD0800059650E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -464,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = trialSPM/Info.plist;
+				INFOPLIST_FILE = "Kommunicate-SPM-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = trialSPM/Info.plist;
+				INFOPLIST_FILE = "Kommunicate-SPM-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,7 +577,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11D4ABBC261AD07E0059650E /* Build configuration list for PBXProject "trialSPM" */ = {
+		11D4ABBC261AD07E0059650E /* Build configuration list for PBXProject "Kommunicate-SPM-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D4ABE9261AD0800059650E /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11D4ABEB261AD0800059650E /* Build configuration list for PBXNativeTarget "trialSPM" */ = {
+		11D4ABEB261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D4ABEC261AD0800059650E /* Debug */,
@@ -595,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11D4ABEE261AD0800059650E /* Build configuration list for PBXNativeTarget "trialSPMTests" */ = {
+		11D4ABEE261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-SampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D4ABEF261AD0800059650E /* Debug */,
@@ -604,7 +604,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11D4ABF1261AD0800059650E /* Build configuration list for PBXNativeTarget "trialSPMUITests" */ = {
+		11D4ABF1261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-SampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D4ABF2261AD0800059650E /* Debug */,

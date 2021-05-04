@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="home" id="BYZ-38-t0r" customClass="ViewController" customModule="trialSPM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="home" id="BYZ-38-t0r" customClass="ViewController" customModule="Kommunicate_SPM_Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchConversation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YqE-NW-L83"/>
+                                    <action selector="launchConversation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jAS-wz-nXa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgO-Pv-F1o">
@@ -37,7 +37,7 @@
                                 </constraints>
                                 <state key="normal" title="Log Out"/>
                                 <connections>
-                                    <action selector="logoutTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g1c-ko-dIH"/>
+                                    <action selector="logoutTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKj-Ba-ZQg"/>
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Oaf-Dq-afL">
@@ -59,7 +59,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="wZj-3e-cNq"/>
                     <connections>
-                        <outlet property="activityIndicator" destination="Oaf-Dq-afL" id="sMl-vk-ahI"/>
+                        <outlet property="activityIndicator" destination="Oaf-Dq-afL" id="8AA-H9-Sxi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -69,7 +69,7 @@
         <!--LoginVC-->
         <scene sceneID="ATa-9i-ZyW">
             <objects>
-                <viewController id="PPz-8T-Bkl" customClass="LoginVC" customModule="trialSPM" sceneMemberID="viewController">
+                <viewController id="PPz-8T-Bkl" customClass="LoginVC" customModule="Kommunicate_SPM_Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EMA-UL-95X">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,7 +99,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginTapped:" destination="PPz-8T-Bkl" eventType="touchUpInside" id="KpF-lC-kDG"/>
+                                    <action selector="loginTapped:" destination="PPz-8T-Bkl" eventType="touchUpInside" id="hV3-TS-FcY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1B-Hn-BHG">
@@ -112,7 +112,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginAsVisitorTapped:" destination="PPz-8T-Bkl" eventType="touchUpInside" id="hTq-hx-MXN"/>
+                                    <action selector="loginAsVisitorTapped:" destination="PPz-8T-Bkl" eventType="touchUpInside" id="jtB-e4-6TH"/>
                                 </connections>
                             </button>
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="9Sg-AW-s6z">
@@ -142,10 +142,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="activityIndicator" destination="9Sg-AW-s6z" id="76b-q7-BUa"/>
-                        <outlet property="emailId" destination="oab-SB-BDf" id="3MT-EW-GXT"/>
-                        <outlet property="password" destination="nu0-Xi-JwB" id="XsZ-an-dY0"/>
-                        <outlet property="userName" destination="EIy-D3-qH3" id="6FA-Y5-XfX"/>
+                        <outlet property="activityIndicator" destination="9Sg-AW-s6z" id="HIq-n1-xtu"/>
+                        <outlet property="emailId" destination="oab-SB-BDf" id="u31-ba-at5"/>
+                        <outlet property="password" destination="nu0-Xi-JwB" id="USS-fQ-Jb1"/>
+                        <outlet property="userName" destination="EIy-D3-qH3" id="Qk6-uL-w3T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="115-oX-wNT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
