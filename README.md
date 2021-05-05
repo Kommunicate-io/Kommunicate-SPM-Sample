@@ -23,3 +23,22 @@ Follow these steps to install and run the sample app:
 - Open the `Kommunicate-SPM-Sample.xcodeproj` file in Xcode
 
 - Add your App ID in the AppDelegate file, and run the app.
+
+## Integration
+Follow these steps to install to integrate the Kommunicate Swift Package in your app:
+
+- In your project, go to File > Swift Packages > Add Package Dependency
+- Enter `https://github.com/Kommunicate-io/Kommunicate-iOS-SDK` in the URL field.
+- Click on Next and wait till the package is added to your project.
+- Add the required [permissions](https://docs.kommunicate.io/docs/ios-installation#installation) and the [localization](https://docs.kommunicate.io/docs/ios-localization#chat-localization-setup)
+- Follow the authentication process as mentioned on the [docs](https://docs.kommunicate.io/docs/ios-authentication)
+- Set up views as required and launch conversations using the following function:
+```swift
+Kommunicate.createAndShowConversation(from: self) { error in
+    guard error == nil else {
+        print("Conversation error: \(error.debugDescription)")
+        return
+    }
+    // Success
+}
+```
