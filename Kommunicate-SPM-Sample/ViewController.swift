@@ -6,8 +6,8 @@
 //
 
 import UIKit
-import ApplozicCore
-import ApplozicSwift
+import KommunicateChatUI_iOS_SDK
+import KommunicateCore_iOS_SDK
 import Kommunicate
 
 class ViewController: UIViewController {
@@ -50,16 +50,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func launchConversation(_ sender: Any) {
-        activityIndicator.startAnimating()
-        Kommunicate.createAndShowConversation(from: self, completion: {
-            error in
-            self.view.isUserInteractionEnabled = true
-            if error != nil {
-                self.activityIndicator.stopAnimating()
-                print("Error while launching")
-            } else {
-                self.activityIndicator.stopAnimating()
-            }
-        })
+        Kommunicate.showConversations(from: self)
     }
 }
