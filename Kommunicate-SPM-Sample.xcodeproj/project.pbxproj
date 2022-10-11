@@ -17,7 +17,18 @@
 		11D7703126245EA5006F4522 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D7703026245EA5006F4522 /* LoginVC.swift */; };
 		11EE86A9263C042700A3E792 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11EE869E263C01A000A3E792 /* Localizable.strings */; };
 		A1770E8928E6D8A400A13CB5 /* Kommunicate in Frameworks */ = {isa = PBXBuildFile; productRef = A1770E8828E6D8A400A13CB5 /* Kommunicate */; };
+		A1B63AB228F54B7F00743E88 /* Kommunicate_SPM_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B63AB128F54B7F00743E88 /* Kommunicate_SPM_SampleTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B63AB328F54B7F00743E88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D4ABB9261AD07E0059650E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D4ABC0261AD07E0059650E;
+			remoteInfo = "Kommunicate-SPM-Sample";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kommunicate-SPM-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +41,8 @@
 		11D4ABD2261AD0800059650E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11D7703026245EA5006F4522 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		11EE869E263C01A000A3E792 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A1B63AAF28F54B7F00743E88 /* Kommunicate-SPM-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kommunicate-SPM-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B63AB128F54B7F00743E88 /* Kommunicate_SPM_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kommunicate_SPM_SampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1B63AAC28F54B7F00743E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				11D4ABC3261AD07E0059650E /* Kommunicate-SPM-Sample */,
+				A1B63AB028F54B7F00743E88 /* Kommunicate-SPM-SampleTests */,
 				11D4ABC2261AD07E0059650E /* Products */,
 				11D7701326244B70006F4522 /* Frameworks */,
 			);
@@ -58,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */,
+				A1B63AAF28F54B7F00743E88 /* Kommunicate-SPM-SampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +107,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A1B63AB028F54B7F00743E88 /* Kommunicate-SPM-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B63AB128F54B7F00743E88 /* Kommunicate_SPM_SampleTests.swift */,
+			);
+			path = "Kommunicate-SPM-SampleTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,17 +139,39 @@
 			productReference = 11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A1B63AAE28F54B7F00743E88 /* Kommunicate-SPM-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B63AB728F54B7F00743E88 /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-SampleTests" */;
+			buildPhases = (
+				A1B63AAB28F54B7F00743E88 /* Sources */,
+				A1B63AAC28F54B7F00743E88 /* Frameworks */,
+				A1B63AAD28F54B7F00743E88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B63AB428F54B7F00743E88 /* PBXTargetDependency */,
+			);
+			name = "Kommunicate-SPM-SampleTests";
+			productName = "Kommunicate-SPM-SampleTests";
+			productReference = A1B63AAF28F54B7F00743E88 /* Kommunicate-SPM-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		11D4ABB9261AD07E0059650E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					11D4ABC0261AD07E0059650E = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					A1B63AAE28F54B7F00743E88 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 11D4ABC0261AD07E0059650E;
 					};
 				};
 			};
@@ -140,6 +192,7 @@
 			projectRoot = "";
 			targets = (
 				11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */,
+				A1B63AAE28F54B7F00743E88 /* Kommunicate-SPM-SampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +206,13 @@
 				11EE86A9263C042700A3E792 /* Localizable.strings in Resources */,
 				11D4ABCE261AD0800059650E /* Assets.xcassets in Resources */,
 				11D4ABCC261AD07E0059650E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B63AAD28F54B7F00743E88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +230,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1B63AAB28F54B7F00743E88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B63AB228F54B7F00743E88 /* Kommunicate_SPM_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B63AB428F54B7F00743E88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */;
+			targetProxy = A1B63AB328F54B7F00743E88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		11D4ABCA261AD07E0059650E /* Main.storyboard */ = {
@@ -354,6 +430,46 @@
 			};
 			name = Release;
 		};
+		A1B63AB528F54B7F00743E88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 932BY3Q6F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kommunicate-SPM-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kommunicate-SPM-Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kommunicate-SPM-Sample";
+			};
+			name = Debug;
+		};
+		A1B63AB628F54B7F00743E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 932BY3Q6F7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kommunicate-SPM-SampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kommunicate-SPM-Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kommunicate-SPM-Sample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -371,6 +487,15 @@
 			buildConfigurations = (
 				11D4ABEC261AD0800059650E /* Debug */,
 				11D4ABED261AD0800059650E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B63AB728F54B7F00743E88 /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B63AB528F54B7F00743E88 /* Debug */,
+				A1B63AB628F54B7F00743E88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
