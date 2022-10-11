@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11D4ABC1261AD07E0059650E /* Kommunicate_SPM_Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kommunicate_SPM_Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kommunicate-SPM-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D4ABC4261AD07E0059650E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D4ABC6261AD07E0059650E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		11D4ABC8261AD07E0059650E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		11D4ABC2261AD07E0059650E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11D4ABC1261AD07E0059650E /* Kommunicate_SPM_Sample.app */,
+				11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */,
 				A1B63ABC28F5549E00743E88 /* Kommunicate_Tests.xctest */,
 				A1B63AC928F554C200743E88 /* Kommunicate_ExampleUItests.xctest */,
 			);
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11D4ABC0261AD07E0059650E /* Kommunicate_SPM_Sample */ = {
+		11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11D4ABEB261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate_SPM_Sample" */;
+			buildConfigurationList = 11D4ABEB261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-Sample" */;
 			buildPhases = (
 				11D4ABBD261AD07E0059650E /* Sources */,
 				11D4ABBE261AD07E0059650E /* Frameworks */,
@@ -160,13 +160,13 @@
 			);
 			dependencies = (
 			);
-			name = Kommunicate_SPM_Sample;
+			name = "Kommunicate-SPM-Sample";
 			packageProductDependencies = (
 				112CA167263194A3002BC63B /* Kommunicate */,
 				A1770E8828E6D8A400A13CB5 /* Kommunicate */,
 			);
 			productName = trialSPM;
-			productReference = 11D4ABC1261AD07E0059650E /* Kommunicate_SPM_Sample.app */;
+			productReference = 11D4ABC1261AD07E0059650E /* Kommunicate-SPM-Sample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A1B63ABB28F5549E00743E88 /* Kommunicate_Tests */ = {
@@ -243,7 +243,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11D4ABC0261AD07E0059650E /* Kommunicate_SPM_Sample */,
+				11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */,
 				A1B63ABB28F5549E00743E88 /* Kommunicate_Tests */,
 				A1B63AC828F554C200743E88 /* Kommunicate_ExampleUItests */,
 			);
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		A1B63AC128F5549E00743E88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11D4ABC0261AD07E0059650E /* Kommunicate_SPM_Sample */;
+			target = 11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */;
 			targetProxy = A1B63AC028F5549E00743E88 /* PBXContainerItemProxy */;
 		};
 		A1B63AD028F554C200743E88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 11D4ABC0261AD07E0059650E /* Kommunicate_SPM_Sample */;
+			target = 11D4ABC0261AD07E0059650E /* Kommunicate-SPM-Sample */;
 			targetProxy = A1B63ACF28F554C200743E88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -465,13 +465,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 932BY3Q6F7;
 				INFOPLIST_FILE = "Kommunicate-SPM-Sample/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Kommunicate SPM Sample App";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kommunicate.spmsample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -491,13 +495,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 932BY3Q6F7;
 				INFOPLIST_FILE = "Kommunicate-SPM-Sample/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Kommunicate SPM Sample App";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kommunicate.spmsample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -525,7 +533,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kommunicate_SPM_Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kommunicate_SPM_Sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kommunicate-SPM-Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kommunicate-SPM-Sample";
 			};
 			name = Debug;
 		};
@@ -544,7 +552,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kommunicate_SPM_Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kommunicate_SPM_Sample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kommunicate-SPM-Sample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kommunicate-SPM-Sample";
 			};
 			name = Release;
 		};
@@ -598,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11D4ABEB261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate_SPM_Sample" */ = {
+		11D4ABEB261AD0800059650E /* Build configuration list for PBXNativeTarget "Kommunicate-SPM-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11D4ABEC261AD0800059650E /* Debug */,
